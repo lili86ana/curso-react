@@ -1,13 +1,10 @@
-//importacion de componentes
+//Importado de librerias, modulos y componentes
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDom from 'react-dom'
+import App from './componentes/App'
 
-//creacion de componente
-const App = () => {
-    return <div>Hola mundo</div>
-}
-//renderizado componente
-ReactDOM.render(
-    <App/>,
+//Renderizado de componente
+ReactDom.render(
+    <App />,
     document.querySelector('#root')
 )
