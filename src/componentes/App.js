@@ -25,10 +25,10 @@ class App extends React.Component {
       render() {
         return (
             <div>
-                <Regards objetName={this.state}/>
-                <button onClick={()=>this.ChangeState({ name:'Ricardo', lastName:'Valle'})}>Maria</button>
-                <button onClick={()=>this.ChangeState({ name:'Antonio', lastName:'Mendoza'})}>Fabian </button>
-                <button onClick={()=>this.ChangeState({ name:'Juana', lastName:'Romero'})}>Antonio</button>
+                <Regards objetName={this.state} />
+                <button onClick={() =>this.ChangeState({ name:'Ricardo', lastName:'Valle'})}>Maria</button>
+                <button onClick={() =>this.ChangeState({ name:'Antonio', lastName:'Mendoza'})}>Fabian </button>
+                <button onClick={() =>this.ChangeState({ name:'Juana', lastName:'Romero'})}>Antonio</button>
             </div>
         )
     }
